@@ -1,0 +1,7 @@
+{
+  "name": "openKeyboard",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
