@@ -1,3 +1,4 @@
-<ion-content [style.height] = "paramBottomSheet.height+'px'">
-    <ng-template anchor-content-bottomsheet ></ng-template>
+<ion-content [style.height]="paramBottomSheet.height+'px'">
+    <ion-icon class="btn-close" name="close-circle" (click)="closeBottomSheet()"></ion-icon>
+    <ng-template anchor-content-bottomsheet></ng-template>
 </ion-content>

@@ -17,7 +17,7 @@ export class HomePage {
 
   }
 
-  openModal() {
+  openModalItineraireModel1() {
     let paramBottomShet: ParamBottomSheet = {
       height: 300,
       btnClose: true,
@@ -25,8 +25,40 @@ export class HomePage {
     };
 
     this.bottomSheetProvider.openBottomSheet(paramBottomShet);
+  }
+
+  openModalItineraireModel2(){
+    let paramBottomShet: ParamBottomSheet = {
+      height: 300,
+      btnClose: true,
+      component: BottomSheetItineraireComponent 
+    };
+
+    this.bottomSheetProvider.openBottomSheet2(paramBottomShet);
+
+  }
+
+  openModalHomeModel1() {
+    let paramBottomShet: ParamBottomSheet = {
+      height: 300,
+      btnClose: true,
+      component: BottomSheetHomeComponent 
+    };
+
+    this.bottomSheetProvider.openBottomSheet(paramBottomShet);
 
     // ouvrir le 2eme modèle de bottomsheet
     //this.bottomSheetProvider.openBottomSheet2(paramBottomShet);
+  }
+
+  openModalHomeModel2(){
+    let paramBottomShet: ParamBottomSheet = {
+      height: 300,
+      btnClose: true,
+      component: BottomSheetHomeComponent 
+    };
+
+    this.bottomSheetProvider.openBottomSheet2(paramBottomShet);
+
   }
 }

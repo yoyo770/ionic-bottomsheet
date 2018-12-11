@@ -11,12 +11,12 @@ export class BottomSheetItineraireComponent {
   text: string;
 
   @Output() test2: EventEmitter<string> = new EventEmitter();
-  
+
   constructor(  public bottomSheetProvider: BottomSheetProvider,) {
     console.log('Hello BottomSheetItineraireComponent Component');
     this.text = 'Hello World';
   }
  test(){
- this.bottomSheetProvider.closeBottomSheet();
+ alert()
  }
 }

@@ -6,5 +6,10 @@ bottom-sheet-modal {
         top:auto;
         background:red !important;
     }
-  
+  .btn-close{
+      position:absolute;
+      top:0px;
+      right:0px;
+      font-size:30px;
+  }
 }
